@@ -1,1 +1,16 @@
 pandas
+duckdb
+cudf
+cupy
+rmm
+pynvml
+pyarrow
+pyarrow-datasets
+pyarrow-parquet
+pyarrow-json
+pyarrow-csv
+pyarrow-xls
+dask
+dask-cudf
+dask-cuda
+polars
