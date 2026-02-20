@@ -26,10 +26,11 @@
 
 ## Prérequis
 
-- **Python** ≥ 3.10
+- **Python** ≥ 3.13
 - **pip** (ou conda/mamba)
-- Environ **8 Go de RAM** disponibles
-- *Optionnel* : GPU NVIDIA avec CUDA pour l'accélération PyTorch
+- Environ **64 Go de RAM** disponibles
+- GPU NVIDIA avec CUDA pour l'accélération PyTorch
+- Linux ou WSL2
 
 ## Installation rapide
 
@@ -39,10 +40,8 @@
 python -m venv .venv
 
 # Activation :
-# Linux / macOS
+# Linux / macOS / WSL2
 source .venv/bin/activate
-# Windows
-.\.venv\Scripts\activate
 ```
 
 ### 2. Installer les dépendances

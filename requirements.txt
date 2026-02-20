@@ -21,7 +21,7 @@ torch>=2.2
 tqdm>=4.66
 joblib>=1.3
 
-# ── RAPIDS (optionnel) ──────────────────────────────────────────
+# ── RAPIDS (Linux seulement) ──────────────────────────────────────────
 # Nécessaire uniquement pour les cellules d'échantillonnage GPU
 # (Tâche 0, cellules 8 et 10). NON disponible via pip standard.
 # Installer via conda / mamba depuis le canal RAPIDS :
