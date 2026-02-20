@@ -26,7 +26,5 @@ Download the dataset (*Amazon Reviews 2023 (c) McAuley Lab*) and place the unzip
 3. Once in the venv, install the requirements `pip install -r requirements.txt`.
 
 4.  Install Jupyter, either :
-   - Via `pip install notebook` then open the notebook with `jupyter notebook main.ipynb`
-   - Or via the [Jupyter extension in VSCode](https://marketplace.visualstudio.com/items?itemName=ms-toolsai.jupyter) if opened via VSCode. Then, "Run All Cells" in `main.ipynb`.
-
-
+   - Via `pip install notebook` then open the notebook with `jupyter notebook amazon-reviews-analysis.ipynb`
+   - Or via the [Jupyter extension in VSCode](https://marketplace.visualstudio.com/items?itemName=ms-toolsai.jupyter) if opened via VSCode. Then, "Run All Cells" in `amazon-reviews-analysis.ipynb`.

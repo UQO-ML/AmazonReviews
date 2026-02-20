@@ -1,6 +1,5 @@
 joblib==1.5.3
 llvmlite==0.46.0
-numba==0.64.0
 numpy==2.4.2
 py4j==0.10.9.9
 pynndescent==0.6.0
@@ -10,3 +9,20 @@ scipy==1.17.0
 threadpoolctl==3.6.0
 tqdm==4.67.3
 umap-learn==0.5.11
+pandas==2.3.3
+polars==1.38.1
+duckdb==1.4.4
+dask[distributed]
+pyarrow==23.0.0
+matplotlib
+networkx
+cupy==13.6.0
+cudf
+numba==0.63.1
+numba-cuda==0.27.0
+nvidia-ml-py==13.590.48
+
+# RAPIDS: not on default PyPI; install via conda/rapids channel if needed
+# cudf-cu13==25.12.0
+# dask-cudf-cu13==25.12.0
+# rmm-cu13==25.12.0
